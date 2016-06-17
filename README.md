@@ -9,4 +9,4 @@ Add the following lines to the end of your index.html file
 
  On the client make requests formatted as follows
 
- `window.postMessage({type: 'incognitoWindow', data: {url: `http://google.com}}, 'http://localhost:8080');`
+ `window.postMessage({type: 'incognitoWindow', data: {url: 'http://google.com'}}, 'http://localhost:8080');`
